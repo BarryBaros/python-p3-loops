@@ -11,10 +11,12 @@ def happy_new_year():
 happy_new_year()
 
 
-   #def square_integers(int_list):
+def square_integers(int_list):
     # code goes here!
+    return[x ** 2 for x in int_list]
+
+print(square_integers([1, 6, 3, 10, 9]))
     
-    #pass
 
 #def fizzbuzz():
     # code goes here!
